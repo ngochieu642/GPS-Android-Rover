@@ -16,8 +16,8 @@ import io.socket.emitter.Emitter;
 public class MainActivity extends FragmentActivity {
 
     private Socket mSocket;
-    private static String host_url = "http://192.168.1.12:3000/"; //local host
-//    private static String host_url = "https://gps-server-nodejs.herokuapp.com/";
+//    private static String host_url = "http://192.168.1.12:3000/"; //local host
+    private static String host_url = "https://gps-server-nodejs.herokuapp.com/";
     private TextView txtMessage, txtSocketID;
 
     @Override
